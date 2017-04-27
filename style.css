@@ -1,0 +1,71 @@
+* {
+  font-family: Helvetica, sans-serif;
+  /*font-weight: 200;*/
+}
+
+.block-height {
+  height: 100px;
+}
+
+@media only screen and (min-width: 400px) {
+.first { background-color: red; }
+.second { background-color: orange; }
+.third { background-color: yellow; }
+.fourth { background-color: green; }
+.fifth { background-color: blue; }
+.sixth { background-color: purple; }
+}
+
+@media only screen and (min-width: 500px) {
+  .first { background-color: purple; }
+  .second { background-color: red; }
+  .third { background-color: orange; }
+  .fourth { background-color: yellow; }
+  .fifth { background-color: green; }
+  .sixth { background-color: blue; }
+}
+
+@media only screen and (min-width: 600px) {
+  .first { background-color: blue; }
+  .second { background-color: purple; }
+  .third { background-color: red; }
+  .fourth { background-color: orange; }
+  .fifth { background-color: yellow; }
+  .sixth { background-color: green; }
+}
+
+@media only screen and (min-width: 700px) {
+  .first { background-color: green; }
+  .second { background-color: blue; }
+  .third { background-color: purple; }
+  .fourth { background-color: red; }
+  .fifth { background-color: orange; }
+  .sixth { background-color: yellow; }
+}
+
+@media only screen and (min-width: 800px) {
+  .first { background-color: yellow; }
+  .second { background-color: green; }
+  .third { background-color: blue; }
+  .fourth { background-color: purple; }
+  .fifth { background-color: red; }
+  .sixth { background-color: orange; }
+}
+
+@media only screen and (min-width: 900px) {
+  .first { background-color: orange; }
+  .second { background-color: yellow; }
+  .third { background-color: green; }
+  .fourth { background-color: blue; }
+  .fifth { background-color: purple; }
+  .sixth { background-color: red; }
+}
+
+@media only screen and (min-width: 1000px) {
+  .first { background-color: red; }
+  .second { background-color: orange; }
+  .third { background-color: yellow; }
+  .fourth { background-color: green; }
+  .fifth { background-color: blue; }
+  .sixth { background-color: purple; }
+}
